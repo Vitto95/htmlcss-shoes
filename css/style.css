@@ -13,3 +13,51 @@
 }
 
 /* /GLOBAL */
+
+/* NAVBAR */
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border: 1px solid black;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/* /NAVBAR */
+
+/* BOX */
+
+.box {
+  position: relative;
+  height: 100vh;
+  background-color: red;
+}
+
+.box .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-shoes {
+  text-align: center;
+}
+
+#two {
+  background-color: green;
+}
+
+#three {
+  background-color: yellow;
+}
+/* /BOX */
