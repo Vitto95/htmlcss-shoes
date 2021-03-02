@@ -1,8 +1,22 @@
+/* GLOBAL */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* GLOBAL */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -14,12 +28,25 @@ body {
   background-color: red;
 }
 
+#one,
+#two,
+#three {
+  font-size: 40px;
+  text-shadow: 0px 1px 2px black;
+}
+
+#one {
+  color: yellow;
+}
+
 #two {
   background-color: green;
+  color: yellow;
 }
 
 #three {
   background-color: yellow;
+  color: green;
 }
 
 nav {
@@ -52,6 +79,9 @@ ul li a {
   color: black;
   font-size: 20px;
   font-weight: 900;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 li:nth-child(2) {
